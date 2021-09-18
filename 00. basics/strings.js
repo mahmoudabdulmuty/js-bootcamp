@@ -4,7 +4,8 @@ let lastName = 'Abdulmuty';
 let fullName = firstName + ' ' + lastName;
 console.log(fullName);
 
-// Challenge
+// Challenge area
+
 let city = 'Cairo';
 let country = 'Egypt';
 let location = city + ', ' + country;
