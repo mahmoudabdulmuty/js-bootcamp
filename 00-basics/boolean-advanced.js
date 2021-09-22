@@ -9,7 +9,7 @@ if (isAccountLocked) {
 	console.log('Welcome !!');
 }
 
-// Challenge area
+// Challenge Area
 
 const temp = 4;
 

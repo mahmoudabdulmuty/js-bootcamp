@@ -11,7 +11,7 @@ if (temp >= 60 && temp <= 90) {
 	console.log('Eh. Do what you want');
 }
 
-// Challenge area
+// Challenge Area
 
 let isGuestOneVegan = true;
 let isGuestTwoVegan = false;

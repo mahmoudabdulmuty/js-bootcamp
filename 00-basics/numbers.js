@@ -4,7 +4,7 @@ let dogYears = (age + 1) / 7;
 
 console.log(dogYears);
 
-// Challenge area
+// Challenge Area
 
 // declaring studentScore
 let studentScore = 18;

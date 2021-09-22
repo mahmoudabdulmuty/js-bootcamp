@@ -15,7 +15,7 @@ isFreezing = temp < 32;   //false
 isFreezing = temp >= 32;  //true
 isFreezing = temp <= 32;  //true
 
-// Challenge area
+// Challenge Area
 
 // create age set to your age
 const age = 4;
