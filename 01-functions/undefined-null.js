@@ -1,11 +1,11 @@
 // undefined for vaiables
-let name;
-name = 'Jen';
+let username;
+username = 'Jen';
 
 if (name === undefined) {
-	console.log(name);
+	console.log(username);
 } else {
-	console.log(name);
+	console.log(username);
 }
 
 // undefined for function arguments
