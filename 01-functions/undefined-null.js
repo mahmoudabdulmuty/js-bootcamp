@@ -2,7 +2,7 @@
 let username;
 username = 'Jen';
 
-if (name === undefined) {
+if (username === undefined) {
 	console.log(username);
 } else {
 	console.log(username);
