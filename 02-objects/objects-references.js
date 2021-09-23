@@ -17,7 +17,7 @@ const resetAccount = function (account) {
 };
 
 const getSummary = function (account) {
-	const name = account.name;p
+	const name = account.name;
 	const income = account.income;
 	const expenses = account.expenses;
 	const balance = account.income - account.expenses;
