@@ -17,7 +17,7 @@ const resetAccount = function (account) {
 };
 
 const getSummary = function (account) {
-	const name = account.name;
+	const name = account.name;p
 	const income = account.income;
 	const expenses = account.expenses;
 	const balance = account.income - account.expenses;
@@ -32,5 +32,5 @@ let summary = getSummary(myAccount);
 console.log(summary);
 
 resetAccount(myAccount);
-summary = getSummary(myAccount);
+summary = getSummary(myAccount); //calling fun. again to change returning value from getSummary
 console.log(summary);
