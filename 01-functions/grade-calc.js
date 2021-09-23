@@ -1,5 +1,5 @@
-let gradeCalc = function (studentScore, total) {
-	let resultPercent = (studentScore / total) * 100;
+const gradeCalc = function (studentScore, total) {
+	const resultPercent = (studentScore / total) * 100;
 	let grade = '';
 
 	resultPercent >= 90
@@ -14,5 +14,5 @@ let gradeCalc = function (studentScore, total) {
 
 	return `you've got a ${grade} (${resultPercent}%)!`;
 };
-let result = gradeCalc(2, 10);
+const result = gradeCalc(2, 10);
 console.log(result);
