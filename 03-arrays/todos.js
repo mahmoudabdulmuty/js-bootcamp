@@ -5,6 +5,16 @@ const todos = [
 	{ text: 'Complete JS-hero Challenge', completed: false },
 	{ text: 'Read at least 1 Chapeter', completed: false }
 ];
+
+// filtering Not Completed Todos
+const getThingsToDo = todos => {
+	return todos.filter(todo => {
+		return !todo.completed;
+	});
+};
+console.log(getThingsToDo(todos));
+
+// delete a todo
 const deleteTodo = function (todos, todoText) {
 	const todoIndex = todos.findIndex(todo => {
 		return todo.text.toLowerCase() === todoText.trim().toLowerCase();
