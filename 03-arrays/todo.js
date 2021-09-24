@@ -1,9 +1,12 @@
 const todos = [
 	'Sleep at least 8 Hours',
 	'Eat Well',
-	'Finish JS-Bootcamp Section',
+	'Finish The Course',
 	'Complete JS-hero Challenge',
 	'Read at least 1 Chapeter'
 ];
-console.log(`You have ${todos.length} todos`);
-console.log(`Todo#1: ${todos[0]} , Todo#2ndToLast: ${todos[todos.length - 2]}`);
+
+todos.splice(2, 1); //Deleting the 3rd item
+todos.push('Buy Coffee'); //Adding an item to the end
+todos.shift(); //Removing an item from the 1st
+console.log(todos);
