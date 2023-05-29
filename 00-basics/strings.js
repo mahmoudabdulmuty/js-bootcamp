@@ -1,13 +1,13 @@
-let firstName = 'Mahmoud';
-let lastName = 'Abdulmuty';
+const firstName = 'Mahmoud';
+const lastName = 'Abdulmuty';
 
-let fullName = firstName + ' ' + lastName;
+const fullName = firstName + ' ' + lastName;
 console.log(fullName);
 
 // Challenge Area
 
-let city = 'Cairo';
-let country = 'Egypt';
-let location = city + ', ' + country;
+const city = 'Cairo';
+const country = 'Egypt';
+const location = city + ', ' + country;
 
 console.log(location);

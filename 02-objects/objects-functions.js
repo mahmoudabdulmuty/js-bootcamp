@@ -1,23 +1,21 @@
 const myBook = {
-	title: '1984',
-	author: 'George Orwell',
-	pageCount: 326
+  title: '1984',
+  author: 'George Orwell',
+  pageCount: 326,
 };
 
 const otherBook = {
-	title: 'Atomic Habits',
-	author: 'James Clear',
-	pageCount: 306
+  title: 'Atomic Habits',
+  author: 'James Clear',
+  pageCount: 306,
 };
 
 // function that passes an object
 
-const getSummary = function (book) {
-	return {
-		summary: `${book.title} by ${book.author}`,
-		pageCountSummary: `${book.title} is ${book.pageCount} pages`
-	};
-};
+const getSummary = (book) => ({
+  summary: `${book.title} by ${book.author}`,
+  pageCountSummary: `${book.title} is ${book.pageCount} pages`,
+});
 const myBookSummary = getSummary(myBook);
 const OtherBookSummary = getSummary(otherBook);
 // returning only summary property from returning Object {}
@@ -25,13 +23,11 @@ const OtherBookSummary = getSummary(otherBook);
 
 // Challenge Area
 
-const getTemp = function (fahrenheit) {
-	return {
-		fahrenheit,
-		celsius: (fahrenheit - 32) * (5 / 9),
-		kelvin: (fahrenheit + 459.67) * (5 / 9)
-	};
-};
+const getTemp = (fahrenheit) => ({
+  fahrenheit,
+  celsius: (fahrenheit - 32) * (5 / 9),
+  kelvin: (fahrenheit + 459.67) * (5 / 9),
+});
 
 // Get temp Object including all three value
 const getTempValue = getTemp(32);
